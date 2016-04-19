@@ -1,16 +1,16 @@
-lista = list()
+lista1 = list()
 pierwszy = input()
-lista.append(pierwszy)
+lista1.append(pierwszy)
 drugi  = input()
-lista.append(drugi)
+lista1.append(drugi)
 trzeci = input()
-lista.append(trzeci)
+lista1.append(trzeci)
 czwarty  = input()
-lista.append(czwarty)
+lista1.append(czwarty)
 piaty  = input()
-lista.append(piaty)
+lista1.append(piaty)
 licznik = 0
-for el in lista:
+for el in lista1:
     if el[0].isupper():
         licznik = licznik + 1
 print(licznik)
