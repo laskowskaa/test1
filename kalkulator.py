@@ -14,3 +14,5 @@ for el in lista1:
     if el[0].isupper():
         licznik = licznik + 1
 print(licznik)
+def mnozenie(x,y):
+    return(x*y)
